@@ -1,9 +1,11 @@
 ---
 title: Courgette Fritters
-description: Crispy courgette fritters with fresh herbs – perfect as a side dish or light lunch.
+servings: 4
+time: 25 min
+difficulty: 2
+taste: 4
+effort: 2
 ---
-
-Quick to make and wonderfully versatile – these crispy fritters are a great way to use up a courgette harvest.
 
 ## Ingredients
 
@@ -11,22 +13,25 @@ Quick to make and wonderfully versatile – these crispy fritters are a great wa
 - 1 tsp salt
 - 2 eggs
 - 3 tbsp flour
-- 50 g grated Parmesan
+- 50 g Parmesan, grated
 - 2 spring onions
 - 1 garlic clove
 - Fresh mint or parsley
 - Pepper
 - Olive oil for frying
+- Greek yoghurt to serve
+- Lemon juice to serve
 
-**To serve:**
-- Greek yoghurt
-- Lemon juice
-
-## Instructions
+## Directions
 
 1. Coarsely grate the courgettes, mix with salt and leave for 10 minutes.
-2. Squeeze the courgette firmly in a clean cloth to remove as much liquid as possible.
-3. Mix in the eggs, flour, Parmesan, chopped spring onions, garlic and herbs. Season with pepper.
-4. Heat olive oil in a frying pan. Drop in 1 tbsp of mixture at a time and flatten slightly.
-5. Fry each side for about 3–4 minutes until golden brown.
-6. Serve with Greek yoghurt and a squeeze of lemon.
+2. Squeeze the courgette firmly in a clean cloth.
+3. Mix in eggs, flour, Parmesan, spring onions, garlic and herbs.
+4. Heat olive oil in a frying pan.
+5. Drop in 1 tbsp of mixture at a time and flatten slightly.
+6. Fry each side for about 3–4 minutes until golden brown.
+7. Serve with Greek yoghurt and a squeeze of lemon.
+
+## Notes
+
+Squeezing the courgette thoroughly is the most important step – the drier the mixture, the crispier the fritters. Fresh herbs from the garden make all the difference here.

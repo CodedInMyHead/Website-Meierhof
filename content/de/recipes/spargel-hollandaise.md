@@ -1,9 +1,11 @@
 ---
 title: Spargel mit Sauce Hollandaise
-description: Der Klassiker der Spargelsaison: zartes weißes Spargelgemüse mit cremiger, selbst gemachter Sauce Hollandaise.
+servings: 4
+time: 35 min
+difficulty: 3
+taste: 5
+effort: 3
 ---
-
-Der Klassiker schlechthin – frischer weißer Spargel vom Meierhof, serviert mit einer samtig-buttrigen Sauce Hollandaise.
 
 ## Zutaten
 
@@ -11,9 +13,6 @@ Der Klassiker schlechthin – frischer weißer Spargel vom Meierhof, serviert mi
 - 1 TL Salz
 - 1 TL Zucker
 - 1 EL Butter
-
-**Für die Sauce Hollandaise:**
-
 - 3 Eigelb
 - 150 g geklärte Butter
 - 2 EL Zitronensaft
@@ -27,3 +26,7 @@ Der Klassiker schlechthin – frischer weißer Spargel vom Meierhof, serviert mi
 4. Für die Hollandaise Eigelb mit Zitronensaft über einem Wasserbad cremig aufschlagen.
 5. Geklärte Butter langsam einrühren, bis eine dickliche Sauce entsteht.
 6. Mit Salz und Pfeffer abschmecken und sofort zum Spargel servieren.
+
+## Hinweise
+
+Weißer Spargel vom Meierhof ist täglich frisch gestochen – am besten noch am selben Tag verarbeiten. Die Hollandaise sollte direkt vor dem Servieren zubereitet werden, da sie nicht gut wiedererwärmt werden kann.

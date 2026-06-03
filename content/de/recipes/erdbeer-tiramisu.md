@@ -1,9 +1,11 @@
 ---
 title: Erdbeer-Tiramisu
-description: Sommerliche Abwandlung des italienischen Klassikers mit frischen Erdbeeren aus eigenem Anbau statt Espresso.
+servings: 6
+time: 30 min
+difficulty: 2
+taste: 5
+effort: 2
 ---
-
-Ein sommerliches Dessert, das unsere frischen Hoferdbeeren in den Mittelpunkt stellt – leicht, fruchtig und unwiderstehlich.
 
 ## Zutaten
 
@@ -13,7 +15,7 @@ Ein sommerliches Dessert, das unsere frischen Hoferdbeeren in den Mittelpunkt st
 - 3 EL Puderzucker
 - 1 Päckchen Vanillezucker
 - 200 g Löffelbiskuits
-- 200 ml Erdbeersaft (oder Erdbeerpüree)
+- 200 ml Erdbeersaft
 - Frische Minze zum Garnieren
 
 ## Zubereitung
@@ -23,5 +25,9 @@ Ein sommerliches Dessert, das unsere frischen Hoferdbeeren in den Mittelpunkt st
 3. Löffelbiskuits kurz in Erdbeersaft tauchen und eine Lage in eine Auflaufform legen.
 4. Die Hälfte der Mascarponecreme darauf verteilen, dann eine Lage Erdbeerscheiben.
 5. Vorgang wiederholen: Biskuits, Creme, Erdbeeren.
-6. Mindestens 4 Stunden (am besten über Nacht) kalt stellen.
+6. Mindestens 4 Stunden kalt stellen.
 7. Vor dem Servieren mit den restlichen Erdbeeren und Minze garnieren.
+
+## Hinweise
+
+Je länger das Tiramisu kühlt, desto besser zieht es durch. Über Nacht im Kühlschrank ist ideal. Für eine alkoholfreie Variante den Erdbeersaft pur verwenden.

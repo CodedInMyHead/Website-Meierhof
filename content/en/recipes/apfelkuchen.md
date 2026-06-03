@@ -1,13 +1,15 @@
 ---
 title: Apple Sheet Cake
-description: Moist apple cake with fresh farm apples – simple, quick and always a crowd-pleaser.
+servings: 12
+time: 55 min
+difficulty: 2
+taste: 5
+effort: 2
 ---
-
-A classic sheet cake that fills the whole house with the smell of cinnamon and apples. Best made with apples fresh from the farm.
 
 ## Ingredients
 
-- 1.5 kg tart apples (e.g. Boskoop or Bramley)
+- 1.5 kg tart apples
 - 300 g flour
 - 200 g butter
 - 200 g sugar
@@ -18,12 +20,16 @@ A classic sheet cake that fills the whole house with the smell of cinnamon and a
 - Cinnamon to taste
 - Icing sugar to dust
 
-## Instructions
+## Directions
 
 1. Peel, core and thinly slice the apples.
 2. Beat butter and sugar until creamy, then beat in the eggs one at a time.
-3. Mix flour, baking powder, vanilla sugar and salt, then fold into the butter mixture.
+3. Mix flour, baking powder, vanilla sugar and salt, then fold in.
 4. Spread the batter onto a greased baking tray.
-5. Arrange the apple slices in overlapping rows on top and sprinkle with cinnamon.
-6. Bake in a preheated oven at 180 °C (fan) for 35–40 minutes.
+5. Arrange the apple slices on top and sprinkle with cinnamon.
+6. Bake at 180 °C (fan) for 35–40 minutes.
 7. Leave to cool, then dust with icing sugar.
+
+## Notes
+
+Boskoop or Bramley apples work particularly well – their acidity perfectly balances the sweetness of the batter. The cake keeps well at room temperature for 3 days.
