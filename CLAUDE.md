@@ -215,5 +215,3 @@ Edit Markdown files directly on GitHub (pencil icon → commit):
 - [ ] Add `favicon.ico` (16×16 or 32×32, farm green `#51a026`)
 - [ ] Verify `info@meierhof-staffort.de` is a working address
 - [ ] Fill in real Facebook URL in every page's footer (currently `href="#"`)
-- [ ] First `git commit` and push to trigger GitHub Actions deploy
-- [ ] Enable GitHub Pages in repo settings (Settings → Pages → Source: GitHub Actions)
