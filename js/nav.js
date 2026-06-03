@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
   nav.appendChild(overflowPanel);
 
   // --- Mark active page ---
-  const rawPath = window.location.pathname.split('/').pop() || 'index.html';
-  const path = rawPath.includes('.') ? rawPath : rawPath + '.html';
+  const rawPath = window.location.pathname.split('/').pop() || '';
+  const path = rawPath.replace(/\.html$/, '') || '/';
   document.querySelectorAll('.nav__links a').forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === path || (path === 'index.html' && (href === 'index.html' || href === '/'))) {
+    const href = link.getAttribute('href').replace(/\.html$/, '');
+    if (href === path || (path === '' && href === '/') || href === '/' && path === '') {
       link.setAttribute('aria-current', 'page');
     }
   });

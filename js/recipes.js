@@ -17,7 +17,7 @@
       '<img class="card__img" src="' + recipe.image + '" alt="' + meta.title + '">' +
       '<div class="card__body">' +
         '<h3 class="card__title">' + meta.title + '</h3>' +
-        '<a href="rezept.html#' + recipe.id + '" class="card__btn">' + (t['recipe.btn'] || 'Zum Rezept') + '</a>' +
+        '<a href="rezept#' + recipe.id + '" class="card__btn">' + (t['recipe.btn'] || 'Zum Rezept') + '</a>' +
       '</div>';
     return card;
   }
