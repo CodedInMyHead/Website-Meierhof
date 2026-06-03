@@ -315,6 +315,8 @@
 }
 
 @media print {
+  @page { size: A4 portrait; margin: 10mm; }
+
   .season-banner,
   .site-nav,
   .recipe-page__topbar,
@@ -322,8 +324,35 @@
 
   body, .recipe-page { background: #fff !important; }
   .recipe-page .section__inner { padding: 0; max-width: 100%; }
-  .rp-layout { box-shadow: none; border: 1px solid #ddd; }
-  .rp-left { background: #f4ede3 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Fit the card on one A4 page */
+  .rp-layout {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    break-inside: avoid;
+    grid-template-columns: 180px 1fr;
+  }
+  .rp-left {
+    background: #f4ede3 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .rp-right { padding: 1rem 1.2rem; gap: 0.75rem; }
+
+  /* Hide image — saves a full page */
+  .rp-image { display: none; }
+
+  /* Tighter text */
+  .recipe-title { font-size: 1.6rem; }
+  .rp-ingredients ul li { font-size: 0.75rem; padding: 0.2rem 0; }
+  .rp-directions ol li { font-size: 0.8rem; line-height: 1.4; margin-bottom: 0.35rem; }
+  .rp-notes p { font-size: 0.75rem; }
+  .rp-stats { font-size: 0.8rem; padding-bottom: 0.5rem; }
+  .rp-rating__emojis { font-size: 0.9rem; }
+  .rp-rating__label { font-size: 0.65rem; }
+
   .rp-directions ol li, .rp-ingredients ul li { break-inside: avoid; }
   .rp-directions h3, .rp-notes h3 { break-after: avoid; }
 }
