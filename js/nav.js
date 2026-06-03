@@ -21,10 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Mark active page ---
   const rawPath = window.location.pathname.split('/').pop() || '';
-  const path = rawPath.replace(/\.html$/, '') || '/';
+  const path = rawPath.replace(/\.html$/, '') || 'index';
   document.querySelectorAll('.nav__links a').forEach(link => {
     const href = link.getAttribute('href').replace(/\.html$/, '');
-    if (href === path || (path === '' && href === '/') || href === '/' && path === '') {
+    const isHome = (href === '.' || href === 'index.html' || href === '');
+    if (isHome && (path === 'index' || path === '') || !isHome && href === path) {
       link.setAttribute('aria-current', 'page');
     }
   });
