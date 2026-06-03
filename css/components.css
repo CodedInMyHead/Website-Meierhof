@@ -1,4 +1,4 @@
-/* Hero banner (Dannwisch-style: photo then text below) */
+/* Hero banner */
 .hero-banner {
   width: 100%;
   height: 45vh;
@@ -55,56 +55,6 @@
   margin: 0 auto 1.5rem;
 }
 
-/* Hero (legacy full-screen background style) */
-.hero {
-  min-height: 100vh;
-  background-image: var(--hero-bg, none);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
-}
-.hero__content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  color: #fff;
-  padding: 2rem;
-  max-width: 720px;
-}
-.hero__title {
-  font-family: var(--font-heading);
-  font-size: clamp(2rem, 5vw, 4rem);
-  margin-bottom: 1rem;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
-  color: #fff;
-}
-.hero__subtitle {
-  font-size: clamp(1rem, 2vw, 1.3rem);
-  margin-bottom: 2rem;
-  opacity: 0.9;
-}
-.hero__cta {
-  background: var(--color-accent);
-  color: #fff;
-  padding: 0.85rem 2rem;
-  border-radius: var(--radius);
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  transition: opacity 0.2s;
-}
-.hero__cta:hover { opacity: 0.88; color: #fff; }
-
 /* Cards */
 .card {
   background: var(--color-surface);
@@ -123,8 +73,14 @@
 .card__body > a { margin-top: auto; padding-top: 0.75rem; align-self: flex-start; }
 .card__title { font-family: var(--font-heading); color: var(--color-text); margin-bottom: 0.5rem; }
 .card__btn {
-  background: #c84b1e; color: #fff !important; padding: 0.4rem 1rem !important; border-radius: 8px;
-  text-decoration: none; font-size: 0.85rem; display: inline-block; line-height: 1.2;
+  background: var(--color-accent);
+  color: #fff !important;
+  padding: 0.4rem 1rem !important;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: inline-block;
+  line-height: 1.2;
 }
 .card-grid {
   display: grid;
@@ -133,8 +89,7 @@
 }
 
 .section--padded { padding-top: 2.5rem; }
-.map-embed { border: 0; }
-.season-legend__dot { padding: 0.2rem 0.5rem; border-radius: 4px; }
+.season-legend__dot { padding: 0.2rem 0.5rem; border-radius: var(--radius); }
 
 /* CTA section */
 .cta-section {
@@ -203,7 +158,7 @@
   .hours-table td:last-child { font-size: 0.85rem; }
 }
 
-/* Anfahrt grid (Öffnungszeiten + Adresse side by side) */
+/* Anfahrt grid */
 .anfahrt-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -211,9 +166,7 @@
   margin-bottom: 2rem;
 }
 @media (max-width: 640px) {
-  .anfahrt-grid {
-    grid-template-columns: 1fr;
-  }
+  .anfahrt-grid { grid-template-columns: 1fr; }
 }
 
 /* Map embed */

@@ -3,7 +3,7 @@
   --color-primary:  #51a026;
   --color-accent:   #c84b1e;
   --color-bg:       #edf5e9;
-  --color-surface:  #ffffff;
+  --color-surface:  #fff;
   --color-text:     #111111;
   --color-muted:    #777777;
   --font-heading:   'Playfair Display', Georgia, serif;
@@ -33,12 +33,12 @@
 body { font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); margin: 0; }
 main { padding-top: 0; }
 p, li, td, th, label { color: var(--color-text); }
-.season-banner, .season-banner span, .season-banner__close { color: #ffffff; }
+.season-banner, .season-banner span, .season-banner__close { color: #fff; }
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
 h1, h2, h3 { font-family: var(--font-heading); color: var(--color-text); }
 a { color: var(--color-text); }
 td, th { border-color: #e0e8e0 !important; }
-address { color: #111 !important; font-style: normal; opacity: 1 !important; }
+address { color: var(--color-text) !important; font-style: normal; opacity: 1 !important; }
 
 /* Season banner */
 .season-banner {
@@ -46,7 +46,7 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
   top: 0;
   z-index: 100;
   background: var(--color-primary);
-  color: #ffffff;
+  color: #fff;
   padding: 0.4rem 2.5rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -72,7 +72,7 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
@@ -131,7 +131,7 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
 .nav__lang button {
   background: none;
   border: 1px solid var(--color-muted);
-  border-radius: 4px;
+  border-radius: var(--radius);
   cursor: pointer;
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
@@ -140,7 +140,7 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
 .nav__lang button:hover { border-color: var(--color-primary); color: var(--color-primary); }
 .nav__toggle { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--color-text); }
 
-/* Footer — dark bg, white text */
+/* Footer */
 .site-footer {
   background: var(--color-primary);
   color: #fff;
@@ -155,7 +155,7 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
 .site-footer a { color: #fff; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
 
-/* CTA section — dark bg, white text */
+/* CTA section */
 .cta-section,
 .cta-section h2,
 .cta-section p { color: #fff; }
