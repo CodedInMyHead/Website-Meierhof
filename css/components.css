@@ -123,8 +123,8 @@
 .card__body > a { margin-top: auto; padding-top: 0.75rem; align-self: flex-start; }
 .card__title { font-family: var(--font-heading); color: var(--color-text); margin-bottom: 0.5rem; }
 .card__btn {
-  background: #c84b1e; color: #fff; padding: 0.4rem 1rem; border-radius: 8px;
-  text-decoration: none; font-size: 0.85rem; display: inline-block;
+  background: #c84b1e; color: #fff !important; padding: 0.4rem 1rem !important; border-radius: 8px;
+  text-decoration: none; font-size: 0.85rem; display: inline-block; line-height: 1.2;
 }
 .card-grid {
   display: grid;

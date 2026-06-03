@@ -33,7 +33,7 @@
 body { font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); margin: 0; }
 main { padding-top: 0; }
 p, li, td, th, label { color: var(--color-text); }
-.season-banner, .season-banner span, .season-banner__close { color: #d4d4d4; }
+.season-banner, .season-banner span, .season-banner__close { color: #ffffff; }
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
 h1, h2, h3 { font-family: var(--font-heading); color: var(--color-text); }
 a { color: var(--color-text); }
@@ -46,8 +46,7 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
   top: 0;
   z-index: 100;
   background: var(--color-primary);
-  color: #d4d4d4;
-  text-align: center;
+  color: #ffffff;
   padding: 0.4rem 2.5rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -69,9 +68,11 @@ address { color: #111 !important; font-style: normal; opacity: 1 !important; }
 .season-banner__close {
   position: absolute;
   right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
   background: none;
   border: none;
-  color: #d4d4d4;
+  color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
