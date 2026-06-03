@@ -82,3 +82,22 @@ Die folgenden Punkte können **nicht automatisch** erledigt werden und müssen m
 - [ ] **Google Search Console** aufrufen — https://search.google.com/search-console
   Domain hinzufügen, Eigentümerschaft bestätigen (HTML-Tag oder DNS-Eintrag).
   Danach `sitemap.xml` einreichen (liegt bereits unter `/sitemap.xml`).
+
+---
+
+## TODO — Vor dem Go-live
+
+### Pflicht
+
+- [ ] **Echte Fotos ersetzen** — alle Unsplash-Platzhalter in Galerie, Rezepte, Startseite und Saisonkalender durch eigene Fotos ersetzen. Open Graph Bild (`og:image`) auf ein echtes Hochformat-Foto (1200×630px) aktualisieren
+- [ ] **Impressum ausfüllen** — Platzhalter `[Vor- und Nachname]`, `[Straße und Hausnummer]`, `[PLZ Ort]`, `[Telefonnummer]`, `[E-Mail-Adresse]` in `impressum.html` ersetzen
+- [ ] **E-Mail-Adresse verifizieren** — sicherstellen dass `info@meierhof-staffort.de` erreichbar ist
+- [ ] **Facebook-URL** in allen Seiten-Footern ersetzen (aktuell `href="#"`)
+- [ ] **Custom Domain** in `sitemap.xml` und allen `og:url` Meta-Tags eintragen sobald bekannt (aktuell `www.meierhof-staffort.de`)
+
+### Optional aber empfohlen
+
+- [ ] **DSGVO-Hinweis** zur localStorage-Nutzung in `datenschutz.html` ergänzen (Sprachpräferenz wird lokal gespeichert)
+- [ ] **Kontaktformular** auf der Anfahrt-Seite — senkt die Hürde für Anfragen
+- [ ] **Open Graph Bild** — eigenes Foto in 1200×630px bereitstellen und `og:image` auf allen Seiten aktualisieren
+- [ ] **Saisonkalender verlinken** — Produkte im Saisonkalender mit passenden Rezepten verknüpfen (z. B. Kürbis → Kürbissuppe)

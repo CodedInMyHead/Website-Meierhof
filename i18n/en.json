@@ -51,5 +51,8 @@
   "hours.season-value": "April – June",
   "recipe.btn": "To the Recipe",
   "recipe.back": "← All Recipes",
-  "recipe.print": "Print / Save as PDF"
+  "recipe.print": "Print / Save as PDF",
+  "notfound.title": "Page not found",
+  "notfound.text": "This page doesn't exist. It may have been moved or the link is incorrect.",
+  "notfound.back": "Back to home"
 }
