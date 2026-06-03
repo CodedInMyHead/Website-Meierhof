@@ -132,6 +132,10 @@
   gap: 1.5rem;
 }
 
+.section--padded { padding-top: 2.5rem; }
+.map-embed { border: 0; }
+.season-legend__dot { padding: 0.2rem 0.5rem; border-radius: 4px; }
+
 /* CTA section */
 .cta-section {
   background: var(--color-primary);

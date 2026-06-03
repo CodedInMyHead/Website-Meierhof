@@ -15,13 +15,13 @@
   <script src="js/nav.js" defer></script>
 </head>
 <body>
-  <div class="season-banner"><span data-i18n="season.banner">Spargelsaison läuft! Täglich frisch geerntet. Mo–Fr 9–18 · Sa/So 9–15 Uhr</span><button class="season-banner__close" aria-label="Schließen">&times;</button></div>
+  <div class="season-banner"><span data-i18n="season.banner">Spargelsaison läuft! Täglich frisch geerntet. Mo–Fr 9–18 · Sa/So 9–15 Uhr</span><button type="button" class="season-banner__close" aria-label="Schließen">&times;</button></div>
 
   <nav class="site-nav">
     <a href="index.html" class="nav__logo">
       <img src="images/logo.jpg" alt="Meierhof Staffort Logo" width="180" height="105">
     </a>
-    <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false">&#9776;</button>
+    <button type="button" class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false">&#9776;</button>
     <ul class="nav__links">
       <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
       <li><a href="ueber-uns.html" data-i18n="nav.ueber-uns">Über uns</a></li>
@@ -31,18 +31,18 @@
       <li><a href="rezepte.html" data-i18n="nav.rezepte">Rezepte</a></li>
     </ul>
     <div class="nav__lang">
-      <button data-lang-btn="de" data-i18n="nav.lang-de">DE</button>
-      <button data-lang-btn="en" data-i18n="nav.lang-en">EN</button>
+      <button type="button" data-lang-btn="de" data-i18n="nav.lang-de">DE</button>
+      <button type="button" data-lang-btn="en" data-i18n="nav.lang-en">EN</button>
     </div>
   </nav>
 
   <main>
-    <section class="section--alt" style="padding-top: 2.5rem;">
+    <section class="section--alt section--padded">
       <div class="section__inner">
         <div class="card-grid">
 
           <div class="card">
-            <img class="card__img" src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?w=600&q=80" alt="Spargel mit Sauce Hollandaise" style="height: 200px; object-fit: cover; width: 100%;">
+            <img class="card__img" src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?w=600&q=80" alt="Spargel mit Sauce Hollandaise">
             <div class="card__body">
               <h3 class="card__title">Spargel mit Sauce Hollandaise</h3>
               <p>Der Klassiker der Spargelsaison: zartes weißes Spargelgemüse mit cremiger, selbst gemachter Sauce Hollandaise.</p>
@@ -51,7 +51,7 @@
           </div>
 
           <div class="card">
-            <img class="card__img" src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&q=80" alt="Erdbeer-Tiramisu" style="height: 200px; object-fit: cover; width: 100%;">
+            <img class="card__img" src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&q=80" alt="Erdbeer-Tiramisu">
             <div class="card__body">
               <h3 class="card__title">Erdbeer-Tiramisu</h3>
               <p>Sommerliche Abwandlung des italienischen Klassikers mit frischen Erdbeeren aus eigenem Anbau statt Espresso.</p>
@@ -60,7 +60,7 @@
           </div>
 
           <div class="card">
-            <img class="card__img" src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Kürbissuppe" style="height: 200px; object-fit: cover; width: 100%;">
+            <img class="card__img" src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Kürbissuppe">
             <div class="card__body">
               <h3 class="card__title">Kürbissuppe</h3>
               <p>Samtige Herbstsuppe aus frisch geerntetem Hokkaidokürbis, verfeinert mit Ingwer und einem Hauch Kokosmilch.</p>
@@ -78,7 +78,7 @@
       <div class="footer__col">
         <strong data-i18n="footer.contact">Kontakt</strong>
         <address data-i18n="footer.address">Im Gewann Herrenäcker, 76297 Stutensee, Staffort</address>
-        <a href="tel:+497249951793" data-i18n="footer.phone">07249 / 951793</a>
+        <a href="tel:+497249951793" data-i18n="footer.phone">07249&nbsp;/&nbsp;951793</a>
         <a href="mailto:info@meierhof-staffort.de" data-i18n="footer.email">info@meierhof-staffort.de</a>
       </div>
       <div class="footer__col">
