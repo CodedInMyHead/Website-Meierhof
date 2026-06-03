@@ -137,9 +137,21 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Re-sync after language change (overflow panel text needs updating) ---
   document.addEventListener('langchange', () => syncOverflow());
 
-  // --- Season banner close ---
+  // --- Season banner close + nav top offset ---
   const closeBtn = document.querySelector('.season-banner__close');
   const banner   = document.querySelector('.season-banner');
+
+  function updateNavTop() {
+    nav.style.top = banner ? banner.offsetHeight + 'px' : '0';
+  }
+
+  updateNavTop();
+
+  if (banner) {
+    const bannerRO = new ResizeObserver(updateNavTop);
+    bannerRO.observe(banner);
+  }
+
   if (closeBtn && banner) {
     closeBtn.addEventListener('click', () => banner.classList.add('is-hidden'));
   }
