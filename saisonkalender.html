@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saisonkalender — Meierhof Staffort</title>
+  <meta name="description" content="Saisonkalender des Meierhof Staffort – wann gibt es Spargel, Erdbeeren, Kürbis und mehr?">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/nav.js" defer></script>
+</head>
+<body>
+  <div class="season-banner"><span data-i18n="season.banner">Spargelsaison läuft! Täglich frisch geerntet. Mo–Fr 9–18 · Sa/So 9–15 Uhr</span><button class="season-banner__close" aria-label="Schließen">&times;</button></div>
+
+  <nav class="site-nav">
+    <a href="index.html" class="nav__logo">
+      <img src="images/logo.jpg" alt="Meierhof Staffort Logo" width="180" height="105">
+    </a>
+    <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false">&#9776;</button>
+    <ul class="nav__links">
+      <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
+      <li><a href="ueber-uns.html" data-i18n="nav.ueber-uns">Über uns</a></li>
+      <li><a href="anfahrt.html" data-i18n="nav.anfahrt">Anfahrt</a></li>
+      <li><a href="galerie.html" data-i18n="nav.galerie">Galerie</a></li>
+      <li><a href="saisonkalender.html" data-i18n="nav.saisonkalender">Saisonkalender</a></li>
+      <li><a href="rezepte.html" data-i18n="nav.rezepte">Rezepte</a></li>
+    </ul>
+    <div class="nav__lang">
+      <button data-lang-btn="de" data-i18n="nav.lang-de">DE</button>
+      <button data-lang-btn="en" data-i18n="nav.lang-en">EN</button>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="section__inner">
+
+        <div class="season-grid">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th data-i18n="month.january">Januar</th>
+                <th data-i18n="month.february">Februar</th>
+                <th data-i18n="month.march">März</th>
+                <th data-i18n="month.april">April</th>
+                <th data-i18n="month.may">Mai</th>
+                <th data-i18n="month.june">Juni</th>
+                <th data-i18n="month.july">Juli</th>
+                <th data-i18n="month.august">August</th>
+                <th data-i18n="month.september">September</th>
+                <th data-i18n="month.october">Oktober</th>
+                <th data-i18n="month.november">November</th>
+                <th data-i18n="month.december">Dezember</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-i18n="produce.asparagus">Spargel</td>
+                <td></td><td></td><td></td>
+                <td class="season-grid__limited">◐</td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__active">●</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+              </tr>
+              <tr>
+                <td data-i18n="produce.strawberry">Erdbeeren</td>
+                <td></td><td></td><td></td><td></td>
+                <td class="season-grid__limited">◐</td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__limited">◐</td>
+                <td></td><td></td><td></td><td></td>
+              </tr>
+              <tr>
+                <td data-i18n="produce.tomato">Tomaten</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__limited">◐</td>
+                <td></td><td></td>
+              </tr>
+              <tr>
+                <td data-i18n="produce.pumpkin">Kürbis</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__limited">◐</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td data-i18n="produce.apple">Äpfel</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td class="season-grid__active">●</td>
+                <td class="season-grid__active">●</td>
+                <td></td><td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><span class="season-grid__active" style="padding:0.2rem 0.5rem;border-radius:4px;">●</span> <span data-i18n="season.available">Verfügbar</span> &nbsp;
+           <span class="season-grid__limited" style="padding:0.2rem 0.5rem;border-radius:4px;">◐</span> <span data-i18n="season.limited">Begrenzt</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <strong data-i18n="footer.contact">Kontakt</strong>
+        <address data-i18n="footer.address">Im Gewann Herrenäcker, 76297 Stutensee, Staffort</address>
+        <a href="tel:+497249951793" data-i18n="footer.phone">07249 / 951793</a>
+        <a href="mailto:info@meierhof-staffort.de" data-i18n="footer.email">info@meierhof-staffort.de</a>
+      </div>
+      <div class="footer__col">
+        <strong data-i18n="footer.links">Links</strong>
+        <ul>
+          <li><a href="impressum.html" data-i18n="nav.impressum">Impressum</a></li>
+          <li><a href="datenschutz.html" data-i18n="nav.datenschutz">Datenschutz</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <strong data-i18n="footer.social">Social Media</strong>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/meierhof_staffort" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="https://wa.me/497249951793" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer__copy" data-i18n="footer.copyright">© 2025 Meierhof Staffort. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
