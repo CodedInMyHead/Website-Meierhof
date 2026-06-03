@@ -47,11 +47,7 @@
   "hours.weekend": "Sat, Sun & public holidays",
   "hours.season": "Season",
   "hours.season-value": "April – June",
-  "recipe.asparagus.title": "Asparagus with Hollandaise Sauce",
-  "recipe.asparagus.desc": "The classic of asparagus season: tender white asparagus with creamy homemade Hollandaise sauce.",
-  "recipe.tiramisu.title": "Strawberry Tiramisu",
-  "recipe.tiramisu.desc": "A summery twist on the Italian classic, using fresh homegrown strawberries instead of espresso.",
-  "recipe.pumpkin.title": "Pumpkin Soup",
-  "recipe.pumpkin.desc": "Velvety autumn soup made from freshly harvested Hokkaido pumpkin, refined with ginger and a hint of coconut milk.",
-  "recipe.btn": "To the Recipe"
+  "recipe.btn": "To the Recipe",
+  "recipe.back": "← All Recipes",
+  "recipe.print": "Print / Save as PDF"
 }

@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impressum — Meierhof Staffort</title>
-  <meta name="description" content="Impressum und rechtliche Angaben des Meierhof Staffort in Stutensee-Staffort.">
+  <title>Rezept — Meierhof Staffort</title>
+  <meta name="description" content="Rezept vom Meierhof Staffort mit frischen Hofprodukten.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="js/i18n.js" defer></script>
   <script src="js/nav.js" defer></script>
+  <script src="js/recipe.js" defer></script>
 </head>
 <body>
   <div class="season-banner"><span data-i18n="season.banner">Spargelsaison läuft! Täglich frisch geerntet. Mo–Fr 9–18 · Sa/So 9–15 Uhr</span><button type="button" class="season-banner__close" aria-label="Schließen">&times;</button></div>
@@ -37,31 +39,19 @@
   </nav>
 
   <main>
-    <section>
-      <div class="section__inner">
-        <h1>Impressum</h1>
-        <p>Angaben gemäß § 5 TMG</p>
-
-        <h2>Betreiber</h2>
-        <address>
-          [Vor- und Nachname]<br>
-          [Straße und Hausnummer]<br>
-          [PLZ Ort]
-        </address>
-
-        <h2>Kontakt</h2>
-        <p>
-          Telefon: <a href="tel:+49XXXXXXXXXXX">[Telefonnummer]</a><br>
-          E-Mail: <a href="mailto:[E-Mail-Adresse]">[E-Mail-Adresse]</a>
-        </p>
-
-        <h2>Haftung für Inhalte</h2>
-        <p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.</p>
-
-        <h2>Haftung für Links</h2>
-        <p>Unser Angebot enthält Links zu externen Webseiten Dritter. Auf deren Inhalte haben wir keinen Einfluss und können daher keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.</p>
+    <article class="recipe-page">
+      <div class="recipe-page__hero">
+        <img id="recipe-hero" src="" alt="">
       </div>
-    </section>
+      <div class="section__inner">
+        <div class="recipe-page__topbar">
+          <a href="rezepte.html" class="recipe-page__back" data-i18n="recipe.back">← Alle Rezepte</a>
+          <button type="button" class="recipe-print-btn" onclick="window.print()" data-i18n="recipe.print">Drucken / Als PDF speichern</button>
+        </div>
+        <h1 class="recipe-title"></h1>
+        <div id="recipe-content" class="recipe-body"></div>
+      </div>
+    </article>
   </main>
 
   <footer class="site-footer">

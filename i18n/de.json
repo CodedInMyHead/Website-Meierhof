@@ -47,11 +47,7 @@
   "hours.weekend": "Sa, So & Feiertage",
   "hours.season": "Saison",
   "hours.season-value": "April – Juni",
-  "recipe.asparagus.title": "Spargel mit Sauce Hollandaise",
-  "recipe.asparagus.desc": "Der Klassiker der Spargelsaison: zartes weißes Spargelgemüse mit cremiger, selbst gemachter Sauce Hollandaise.",
-  "recipe.tiramisu.title": "Erdbeer-Tiramisu",
-  "recipe.tiramisu.desc": "Sommerliche Abwandlung des italienischen Klassikers mit frischen Erdbeeren aus eigenem Anbau statt Espresso.",
-  "recipe.pumpkin.title": "Kürbissuppe",
-  "recipe.pumpkin.desc": "Samtige Herbstsuppe aus frisch geerntetem Hokkaidokürbis, verfeinert mit Ingwer und einem Hauch Kokosmilch.",
-  "recipe.btn": "Zum Rezept"
+  "recipe.btn": "Zum Rezept",
+  "recipe.back": "← Alle Rezepte",
+  "recipe.print": "Drucken / Als PDF speichern"
 }
